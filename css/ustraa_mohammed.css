@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hyper {
+    display: flex;
+    flex-flow: column nowrap !important;
+    padding: 5px 0 !important;
+    padding-right: 15px !important;
+    gap: 0.5rem;
+    cursor: pointer !important;
+}
+
+.hyper .item-show,
+.order-related .order-item-show {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    line-height: 1em;
+    margin-bottom: 0.5rem !important;
+}
+
+.hyper .item {
+    display: inline-flex;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: rgb(117, 117, 117) !important;
+}
+
+.hyper .item a:hover {
+    text-decoration: underline !important;
+    color: #157ebc !important;
+}
+
+.order-related {
+    cursor: default;
+    margin-right: 2rem;
+}
+
+.order-related .order-item-show {
+
+    line-height: 20px;
+}
+
+.order-related .order-child {
+    display: block;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: rgb(117, 117, 117) !important;
+    line-height: 20px;
+}
+
+.stay-connected {
+    background: linear-gradient(282deg, #526b7a, #0f4667 39%, #0a334c);
+    padding: 15px;
+    width: 18.625rem;
+    max-height: 11.5rem !important;
+}
+
+.stay-connected p {
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    max-height: 12rem !important;
+}
+
+/* Font Awesome */
+.nav-2 .fa-stack {
+    display: inline-block;
+    position: relative;
+    line-height: 1.875rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    border: none !important;
+    background-color: transparent;
+    margin: 5px !important;
+}
+
+.hexagon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-color: #fff;
+    border: none !important;
+    border-radius: 50%;
+}
+
+.fa-stack-1x {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: calc(1.875rem / 2) !important;
+    color: black;
+    inset: 0;
+    border: none !important;
+}
+
+.footer-1 {
+    background-color: #ECECEC !important;
+}
+
+.footer-1 p {
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    line-height: 1.3rem;
+}
+
+.footer-1 a {
+    text-decoration: underline !important;
+}
+
+.footer-1 .line-1 h2 {
+    font-weight: 500;
+    font-size: 1.25em;
+    padding: 15px 0 !important;
+    color: #000;
+    line-height: 1.3rem;
+}
+
+.footer-1-container {
+    overflow: hidden !important;
+    height: 200px;
+}
+
+.footer-1 .less,
+.footer-1 .more {
+    position: absolute;
+    border: none;
+    color: #157ebc;
+    background: linear-gradient(to bottom, #00000000 0%, #ececec 50%);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 40px;
+    text-align: right;
+    font-family: inherit;
+}
+
+.less {
+    display: none;
+    right: 0 !important;
+}
+
+.more {
+    display: block;
+    right: 0;
+    bottom: 0.4rem !important;
+    width: 100%;
+}
