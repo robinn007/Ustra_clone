@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+/* section {
+    padding: 15px 0 !important;
+    min-height: 18.75em !important;
+}
+
+footer {
+    background-color: #f3f3f3;
+} */
+
 .hyper {
     display: flex;
     flex-flow: column nowrap !important;
@@ -21,7 +30,6 @@
     font-weight: 500;
     color: rgb(0, 0, 0);
     line-height: 1em;
-    margin-bottom: 0.5rem !important;
 }
 
 .hyper .item {
@@ -42,7 +50,7 @@
 }
 
 .order-related .order-item-show {
-
+    margin-bottom: 0.5rem !important;
     line-height: 20px;
 }
 
@@ -127,14 +135,13 @@
     height: 200px;
 }
 
-.footer-1 .less,
-.footer-1 .more {
+.footer-1 button {
     position: absolute;
     border: none;
     color: #157ebc;
     background: linear-gradient(to bottom, #00000000 0%, #ececec 50%);
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     height: 40px;
     text-align: right;
@@ -151,4 +158,13 @@
     right: 0;
     bottom: 0.4rem !important;
     width: 100%;
+}
+
+.footer-3 .left-side p {
+    font-size: 12px !important;
+}
+
+.footer-3 .right-side p {
+    font-size: 13px !important;
+    color: #4b4b4b !important;
 }
