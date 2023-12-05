@@ -240,14 +240,12 @@ footer {
     width: 200px;
     border-radius: 4px;
     font-size: 16px;
-    /* -webkit-text-align: center; */
     text-align: center;
     font-weight: 600;
     font-family: inherit;
     color: #157ebc;
     border: 1px solid #157ebc;
     background-color: #fff;
-    /* outline: none; */
     cursor: pointer;
 }
 
@@ -260,12 +258,96 @@ footer {
     background-color: #157ebc !important;
 }
 
+/* TOP NAVBAR */
+.top-navbar-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* white-space: nowrap !important; */
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-behavior: smooth;
+    max-width: 76rem !important;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: start;
+    align-items: center;
+    padding-left: 0.5rem !important;
+}
+
+.top-navbar .top-nav-btn {
+    padding: 5px 12px;
+    min-height: 50px;
+    border-radius: 5px !important;
+    display: flex !important;
+    flex-flow: row wrap;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* TOP NAVBAR */
+.top-navbar .top-nav-btn:hover {
+    background-color: rgba(171, 171, 171, 0.100);
+}
+
+.top-navbar .top-nav-btn img,
+.top-navbar .top-nav-btn p {
+    display: inline-block;
+}
+
+/* TOP BLUE SECTION */
+.blue-section {
+    position: relative;
+    height: 145px;
+}
+
+.blue-sec-part-1 {
+    font-weight: 600;
+    background: linear-gradient(-45deg, #abf5ff, #5ce0f1);
+    padding: 0 10px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 15px;
+    height: 75px;
+    z-index: 1300;
+    width: 100%;
+    overflow: hidden;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #00446C;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    -webkit-text-align: center;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.blue-sec-part-1 a {
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #00446C;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.footer-2 .get-app {
+    display: none;
+}
+
+.large-none {
+    display: none;
+}
+
 @media screen and (max-width: 479px) {
     .container {
-        width: 98vw !important;
+        width: 100vw !important;
         padding-left: 0.5rem !important;
         padding-right: 0.5rem !important;
-
     }
 
     .blog-section .blog-child-box {
@@ -273,10 +355,9 @@ footer {
     }
 
     .blog-section .blog-btn-view {
-        width: 97%;
+        width: 98%;
         border-radius: 4px;
         font-size: 16px;
-        /* -webkit-text-align: center; */
         text-align: center;
         font-weight: 600;
         font-family: inherit;
@@ -285,5 +366,72 @@ footer {
         background-color: #fff;
         /* outline: none; */
         cursor: pointer;
+    }
+
+    /* TOP NAVBAR */
+    .top-navbar-container {
+        margin-left: 0 !important;
+        justify-content: start;
+        align-items: center !important;
+    }
+
+    .top-navbar .top-nav-btn {
+        min-width: calc(100% / 6.2) !important;
+        border-radius: 5px !important;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .top-navbar .top-nav-btn a {
+        display: flex !important;
+        flex-flow: column nowrap !important;
+        padding: 5px 12px;
+        display: flex !important;
+        flex-flow: column nowrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .top-navbar-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .top-navbar .top-nav-btn img,
+    .top-navbar .top-nav-btn p {
+        display: block;
+    }
+
+    .top-navbar .top-nav-btn p {
+        font-size: 8px !important;
+    }
+
+    .min-none {
+        display: none !important;
+    }
+
+    /* Footer Download app */
+    .get-app {
+        display: block !important;
+        background: linear-gradient(282deg, #526b7a, #0f4667 39%, #0a334c);
+        width: 100%;
+    }
+
+    .get-app p {
+        color: #fff !important;
+    }
+
+    /* Bottom-hyperlinks */
+    .bottom-hyperlinks .hyperlinks-section {
+        display: flex !important;
+        flex-flow: column nowrap !important;
+    }
+
+    .order-related .order-child span {
+        margin-left: 0.5rem !important;
+        color: #fff;
+        background-color: #187DBB;
+        padding: 5px;
+        border-radius: 50% !important;
     }
 }
