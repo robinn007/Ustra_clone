@@ -186,7 +186,7 @@ width: 85%;
   color: #177fbd;
   margin-top: 1.1rem;
 }
-.image-detail button {
+.image-detail button,.add-product button {
   background-color: #4fcf64;
   color: white;
   font-weight: 500;
@@ -334,3 +334,73 @@ nav {
       display: none;
     }
    }
+   .popup-container {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.85);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .popup {
+      background-color: #fff;
+      position: absolute;
+    }
+
+    .close-icon {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      cursor: pointer;
+      color: #fff; /* Adjust the color as needed */
+    }
+
+    .open-popup-btn {
+      box-sizing: border-box;
+      color: hsl(0, 0%, 100%);
+      width: 15%;
+      height: 51px;
+      display: flex;
+      flex-direction: column;
+      padding: 7px 5px;
+      cursor: pointer;
+      border: none;
+    }
+
+    .open-popup-btn:focus {
+      outline: none;
+    }
+
+    .popup-container:target {
+      display: flex;
+    }
+    .open-popup-btn a{
+      text-decoration: none;
+    }
+    .video-details-container{
+      display: flex;
+      flex-direction: column;
+      width: 53.3rem;
+    }
+    .video{
+      height: 85%;
+    }
+    .video-details{
+      height:15% ;
+      display: flex;
+      justify-content: space-between;
+    }
+    .product-name{
+      font-size: 16px;
+      color: RGB(77, 77, 77);
+      margin: auto 0 auto 1rem;
+    }
+    #add-pro{
+      margin-bottom: 1rem;
+      margin-right: 2rem;
+    }
