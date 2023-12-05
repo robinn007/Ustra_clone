@@ -25,6 +25,9 @@ header h1 {
 .surbhi-herobar {
   margin: 0 auto;
   max-width: 76rem;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
 }
 
 .surbhi-nav {
@@ -64,6 +67,9 @@ nav a {
 .main-sale {
   border-bottom: 3px solid #157ebc;
   color: #157ebc;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
 }
 
 .container-items {
