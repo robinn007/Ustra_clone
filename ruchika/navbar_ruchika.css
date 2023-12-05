@@ -34,10 +34,15 @@ html, body{
 .offerbox_container .offer_text a, .offerbox_container .offer_text a span{
     text-decoration: none;
 }
+.header{
+    position: sticky;
+    top: 0;
+}
 
 @media only screen and (min-width: 768px) {
     .offerbox_container{
-        position: fixed;
+        /* position: sticky; */
+        /* top:0; */
     }
 }
 
@@ -45,8 +50,8 @@ html, body{
     display: flex;
     align-items: center;
     /* -webkit-box-pack: center; */
-    position: fixed;
-    top: 75px;
+    /* position: sticky; */
+    /* top: 85px; */
     width:100vw;
     height: 70px;
     z-index: 1000;
@@ -189,8 +194,8 @@ header .searchbar{
 
 /* product navbar */
 .product_shortcut {
-    z-index: 900;
-    padding-top: 140px;
+    /* z-index: 900; */
+    /* padding-top: 140px; */
     display: flex;
     width: 100%;
     -webkit-box-pack: center;
@@ -260,8 +265,11 @@ header .searchbar{
  /* slider section */
 .slider_outer_container{
     margin-top: 10px;
+    position: relative;
 }
-
+.owl-theme{
+    position: relative;
+}
 .owl-carousel div{
     width: 100vw;
 }
@@ -269,6 +277,51 @@ header .searchbar{
 .owl-carousel div img{
     margin: auto;
 }
+.owl-item img{
+    border-radius: 5px;
+}
+.owl-prev{
+    position:absolute;
+    top:30%;
+    left:8%;
+    height:auto;
+    width:auto;
+}
+.owl-span button:hover{
+    background-color: transparent;
+}
+.owl-prev span{
+    font-size: 80px;
+    color: whitesmoke;
+}
+.owl-next{
+    position:absolute;
+    top:30%;
+    right:8%;
+    height:auto;
+    width:auto;
+    background-color: #fff;
+}
+.owl-next span{
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 1%;
+}
+.owl-dot span{
+    background-color: #88a5b4 !important;
+}
+
+.owl-dot:hover span{
+    background-color: #147ab5 !important;
+}
+.active span{
+    background-color: #147ab5 !important;
+}
+
 
  /* in-general styles */
 audio, canvas, iframe, img, svg, video {

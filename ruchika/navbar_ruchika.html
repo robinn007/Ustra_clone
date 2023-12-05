@@ -96,16 +96,17 @@
 
                 <!-- sliders -->
                 <section class="slider_outer_container">
-                            <div class="owl-carousel owl-theme owl-row">
-                                <div class="item"><a href="offer.html"><img id="home_slide1" src="./assets/desktop-banner-1.webp" alt=""></a></div>
-                                <div class="item"><a href="offer.html"><img id="home_slide2" src="./assets/desktop-banner-2.webp" alt=""></a></div>
-                                <div class="item"><a href="offer.html"><img id="home_slide3" src="./assets/desktop-banner-3.webp" alt=""></a></div>
+                        <div class="owl-carousel owl-theme owl-loaded">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage">
+                                    <div class="owl-item"><a href="offer.html"><img id="home_slide1" src="./assets/desktop-banner-1.webp" alt=""></a></div>
+                                    <div class="owl-item"><a href="offer.html"><img id="home_slide2" src="./assets/desktop-banner-2.webp" alt=""></a></div>
+                                    <div class="owl-item"><a href="offer.html"><img id="home_slide3" src="./assets/desktop-banner-3.webp" alt=""></a></div>
+                                </div>
                             </div>
-                            <!-- <div class="slider_nav">
-                                <a href="#home_slide1"></a>
-                                <a href="#home_slide2"></a>
-                                <a href="#home_slide3"></a>
-                            </div> -->
+                            <div class="owl-prev"></div>
+                            <div class="owl-next"></div>
+                        </div>
                         </div>
                     </div>
                 </section>
@@ -123,38 +124,26 @@
 
         <!-- jQuery plugin calling -->
         <script>
-            // $(document).ready(function(){
-            //     $(".owl-carousel").owlCarousel();
-            // });
-            // $('.owl-carousel').owlCarousel({
-            //     center: true,
-            //     items: 1,
-            //     loop: true,
-            //     margin: 10,
-            //     autoWidth: false,
-            //     responsive:{
-            //         600:{
-            //             items: 3
-            //         }
-            //     },
-            //     dots: true,
-            // });
-        </script>
-        <script>
             $(".owl-carousel").owlCarousel({
-            margin: 0,
-            loop: true,
-            items: 1,
-            autoplay:true,
-            autoplayTimeout:2000,
-            autoplayHoverPause:true
-          });
-          $('.play').on('click',function(){
-          owl.trigger('play.owl.autoplay',[2000])
-          });
-          $('.stop').on('click',function(){
-          owl.trigger('stop.owl.autoplay')
-          })
+                margin: 20,
+                stagePadding: 200,
+                loop: true,
+                items: 1,
+                nav: true,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true,
+                dots: true,
+                dotsEach: true
+            });
+
+            $('.play').on('click',function(){
+                owl.trigger('play.owl.autoplay',[2000])
+            });
+
+            $('.stop').on('click',function(){
+                owl.trigger('stop.owl.autoplay')
+            });
         </script>
 </body>
 </html>
