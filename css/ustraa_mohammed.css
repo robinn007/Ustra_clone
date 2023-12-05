@@ -344,7 +344,7 @@ footer {
     display: none;
 }
 
-@media screen and (max-width: 479px) {
+@media only screen and (max-width: 479px) {
     .container {
         width: 100vw !important;
         padding-left: 0.5rem !important;
@@ -436,7 +436,7 @@ footer {
         flex-flow: column nowrap !important;
     }
 
-    .order-related .order-child span {
+    .order-related .order-child a span {
         margin-left: 0.5rem !important;
         color: #fff;
         background-color: #187DBB;
