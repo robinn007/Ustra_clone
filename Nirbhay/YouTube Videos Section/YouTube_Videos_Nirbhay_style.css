@@ -72,25 +72,3 @@ body{
 #fb_icon{
     cursor: pointer;
 }
-
-
-.overlay{
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.youtube-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.youtube-video{
-    opacity: 1 !important;
-}
