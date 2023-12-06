@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white
+}
+
+.container_n .cells_n{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 89%;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+}
+
+.container_n .cells_n .cell_n{
+    margin-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    width: 39vw;
+}
+
+.container_n .cells_n .cell_n .handels_n{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container_n h2{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 5%;
+}
+
+.container_n .cells_n .cell_n .handels_n .social_n{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+}
+
+.cell_image{
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.video_description{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(117, 117, 117);
+}
+
+.title_n{
+    margin-top: 4vh;
+}
+
+#heart_icon{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#share_icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#fb_icon{
+    cursor: pointer;
+}
