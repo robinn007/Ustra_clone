@@ -5,6 +5,25 @@
 }
 
 body {
+  font-family: 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important; */
+  line-height: 1.3;
+}
+
+h1,
+h2,
+h3,
+a {
+  letter-spacing: 1px !important;
+}
+
+p {
+  font-size: 14px;
+  color: #757575 !important;
+  letter-spacing: 0.5px !important;
+}
+
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -18,8 +37,6 @@ header {
 
 header h1 {
   font-size: 22px;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
 }
 
 .surbhi-herobar {
@@ -141,13 +158,13 @@ nav a {
   border: 10px;
   box-sizing: border-box;
   display: inline-block;
-  font-family: inherit;
+  /* font-family: inherit; */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   cursor: pointer;
   text-decoration: none;
   outline: none;
   font-size: 0px;
-  font-weight: inherit;
+  /* font-weight: inherit; */
   position: absolute;
   overflow: visible;
   transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
@@ -176,7 +193,7 @@ nav a {
   color: #b1b1b1;
   font-weight: 400;
   margin-top: 2px;
-  font-family: inherit !important;
+  /* font-family: inherit !important; */
 }
 
 .image-detail-container {
@@ -283,11 +300,9 @@ nav a {
   padding: 16px 0px;
   min-width: 200px;
   border-radius: 4px;
-  font-size: 16px;
-  -webkit-text-align: center;
+  font-size: 15px;
   text-align: center;
   font-weight: 500;
-  font-family: inherit;
   color: #157ebc;
   border: 1px solid #157ebc;
   background-color: #fff;
@@ -383,6 +398,14 @@ nav a {
   .rating,
   .you-tube-button {
     display: none;
+  }
+
+  header h1 {
+    font-size: 20px !important;
+  }
+
+  .surbhi-nav {
+    width: 98%;
   }
 }
 

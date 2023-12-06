@@ -71,6 +71,11 @@
       letter-spacing: 0.5px !important;
     }
 
+    button,
+    a {
+      cursor: pointer !important;
+    }
+
     .container {
       max-width: 76em !important;
       margin: auto auto !important;
@@ -176,7 +181,7 @@
 
   <!-- SURBHI SECTION STARTS -->
   <!-- SURBHI FLEX SECTION -->
-  <header>
+  <header class="px-2 py-8">
     <div class="surbhi-herobar">
       <h1>Premium Mens Grooming Products</h1>
     </div>
@@ -1011,7 +1016,9 @@
   <a class="products" href="./products">
     <div class="prodb">
       <div class="products-button" data-reactid="774">
-        <button class="product-button-prop" data-reactid="775">View all products</button>
+        <a href="surbhi/all-products-c.html">
+          <button class="product-button-prop" data-reactid="775">View all products</button>
+        </a>
       </div>
     </div>
   </a>
@@ -1424,7 +1431,7 @@
         </div>
       </div>
     </section>
-    <section class="get-app" style="display: none;">
+    <section class="get-app large-none">
       <!-- <div> -->
       <p class="mx-8">Download our mobile app</p>
       <!-- </div> -->
@@ -1433,7 +1440,7 @@
       <div class="container">
         <div class="line-1 flex flex-row">
           <div class="hyperlinks-section flex flex-row justify-between align-baseline w-full">
-            <div class="hyper hyper-company mb-4">
+            <div class="hyper hyper-company mb-4 min-none">
               <div class="item-show">Company</div>
               <div class="item"><a href="">About Us</a></div>
               <div class="item"><a href="">Brand Protection</a></div>
@@ -1445,7 +1452,7 @@
               <div class="item"><a href="">We Are Hiring</a></div>
               <div class="item"><a href="">How To Use Our Products</a></div>
             </div>
-            <div class="hyper hyper-general-info mb-4">
+            <div class="hyper hyper-general-info mb-4 min-none">
               <div class="item-show">General Info</div>
               <div class="item"><a href="">Subscription Plans</a></div>
               <div class="item"><a href="">Subscription Cancellation Policy</a></div>
@@ -1458,6 +1465,42 @@
               <div class="item"><a href="">Shipping And Handling</a></div>
               <div class="item"><a href="">Cashback Terms & Conditions</a></div>
             </div>
+
+
+            <!-- large none -->
+            <!-- <div class="company-general-footer"> -->
+
+            <details class="hyper hyper-company mb-4 large-none">
+              <summary class="item-show py-4">Company</summary>
+              <div>
+                <div class="item"><a href="">About Us</a></div>
+                <div class="item"><a href="">Brand Protection</a></div>
+                <div class="item"><a href="">Privacy Policy</a></div>
+                <div class="item"><a href="">Terms Of Use</a></div>
+                <div class="item"><a href="">Sulphates And Parabens</a></div>
+                <div class="item"><a href="">Ustraa - Grooming Tips</a></div>
+                <div class="item"><a href="">Intern With Us</a></div>
+                <div class="item"><a href="">We Are Hiring</a></div>
+                <div class="item"><a href="">How To Use Our Products</a></div>
+              </div>
+            </details>
+
+            <details class="hyper hyper-general-info mb-4 large-none">
+              <summary class="item-show py-4">General Info</summary>
+              <div>
+                <div class="item py-2"><a href="">Subscription Plans</a></div>
+                <div class="item py-2"><a href="">Subscription Cancellation Policy</a></div>
+                <div class="item py-2"><a href="">Contact Us</a></div>
+                <div class="item py-2"><a href="">Warranty</a></div>
+                <div class="item py-2"><a href="">USTRAA Return & Replacement Policy</a></div>
+                <div class="item py-2"><a href="">Fragrances Return & Replacement Policy</a></div>
+                <div class="item py-2"><a href="">Trimmer Return & Replacement Policy</a></div>
+                <div class="item py-2"><a href="">FAQs</a></div>
+                <div class="item py-2"><a href="">Shipping And Handling</a></div>
+                <div class="item py-2"><a href="">Cashback Terms & Conditions</a></div>
+              </div>
+            </details>
+
             <div class="order-related min-none">
               <div class="order-item-show">Order Related Enquiries:</div>
               <div class="order-child">Email: help@ustraa.com</div>
@@ -1466,9 +1509,9 @@
               <div class="order-child">Domestic: sainik@ustraa.com</div>
               <div class="order-child">International/Export: sainik@ustraa.com</div>
             </div>
+
             <div class="stay-connected min-none">
               <p class="mb-1 pl-2">Stay Connected</p>
-
               <div class="social-icon mb-2">
                 <!-- Facebook Icon -->
                 <div class="nav-2 pl-2">
@@ -1530,7 +1573,7 @@
     </section>
 
     <!-- Order Related Enquires -->
-    <div class="container text-center bg-white pt-8 min-display large-none">
+    <div class="container text-center bg-white pt-8 large-none">
       <div class="order-related">
         <div class="order-item-show">Order Related Enquiries :</div>
         <div class="order-child mb-4">
@@ -1553,7 +1596,7 @@
 
     <!-- MIN Display -->
     <!-- Mohammed FOOTER SECTION-3 -->
-    <section class="footer-3 section bg-white mb-4 large-none min-display">
+    <section class="footer-3 section bg-white mb-4 large-none large-none">
       <div class="container">
         <div class="foot-sec-3 left-side text-center">
           <p>© 2023 Happily Unmarried. All Rights Reserved CIN/LLPIN: <br>U51909DL2007PTC167121</p>
