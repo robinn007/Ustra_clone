@@ -5,6 +5,7 @@
     justify-content: center !important;
     padding: 0.5rem 0.1rem !important;
     position: fixed;
+    background-color: #fff;
     top: 75px;
     z-index: 1000;
 }
