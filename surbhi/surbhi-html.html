@@ -32,7 +32,7 @@
   </div>
   </div>
 
-      <div id="sale-content" class="container-items active">
+      <div id="sale-content" class="container-items active12">
         <!-- <div class="arrow"> 
         <i class="fa-solid fa-chevron-left fa-2xl"></i>
         </div> -->
@@ -897,12 +897,12 @@
       // Hide all content sections
       var contents = document.getElementsByClassName('container-items');
       for (var i = 0; i < contents.length; i++) {
-        contents[i].classList.remove('active');
+        contents[i].classList.remove('active12');
       }
 
       // Show the selected content section
       var selectedContent = document.getElementById(sectionId);
-      selectedContent.classList.add('active');
+      selectedContent.classList.add('active12');
 
        var links = document.querySelectorAll('nav a');
       links.forEach(function(link) {
