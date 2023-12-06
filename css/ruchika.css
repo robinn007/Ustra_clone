@@ -1,0 +1,60 @@
+/* slider section */
+/* OWL CAROUSEL STYLES */
+.slider_outer_container{
+    margin-top: 10px;
+    position: relative;
+}
+.owl-theme{
+    position: relative;
+}
+.owl-carousel div{
+    width: 100vw;
+}
+
+.owl-carousel div img{
+    margin: auto;
+}
+.owl-item img{
+    border-radius: 5px;
+}
+.owl-prev{
+    position:absolute;
+    top:30%;
+    left:8%;
+    height:auto;
+    width:auto;
+}
+.owl-span button:hover{
+    background-color: transparent;
+}
+.owl-prev span{
+    font-size: 80px;
+    color: whitesmoke;
+}
+.owl-next{
+    position:absolute;
+    top:30%;
+    right:8%;
+    height:auto;
+    width:auto;
+    background-color: #fff;
+}
+.owl-next span{
+    font-size: 80px;
+    color: whitesmoke;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 1%;
+}
+.owl-dot span{
+    background-color: #88a5b4 !important;
+}
+
+.owl-dot:hover span{
+    background-color: #147ab5 !important;
+}
+.active span{
+    background-color: #147ab5 !important;
+}
