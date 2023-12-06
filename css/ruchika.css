@@ -55,10 +55,6 @@
 .owl-dot:hover span{
     background-color: #147ab5 !important;
 }
-.active span{
+.owl-dots .active span{
     background-color: #147ab5 !important;
-}
-
-@media screen and (maxWidth: ) {
-    
 }
