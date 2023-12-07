@@ -6,7 +6,7 @@
 
 We are a team of six members who collaborated to create this USTRAA.com website clone. Each team member played a crucial role in the development process:
 
-1. **[Robin Singh](#)** - Hamburger
+1. **[Robin Singh](#)** - Hamburger & Pages Templates
 2. **[Ruchika Kadam](#)** - Top Navbar & Slider
 3. **[Surbhi Gupta](#)** - Middle Navbar and Merging Pages
 4. **[Prateek](#)** - Item Flex Box
